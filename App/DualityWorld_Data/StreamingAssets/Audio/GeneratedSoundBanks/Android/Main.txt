@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	417627684	PlayMusic			\Default Work Unit\PlayMusic	
+	681177339	Setstatefirsttheme			\Default Work Unit\Setstatefirsttheme	
+	1515128208	SetStateIntro			\Default Work Unit\SetStateIntro	
+	1866025847	Footstep			\Default Work Unit\Footstep	
+	1940391016	tones			\Default Work Unit\tones	
+	1952795908	Pushbox			\Default Work Unit\Pushbox	
+	2428031377	Setstatefuilltheme			\Default Work Unit\Setstatefuilltheme	
+	2596245103	StopFootstep			\Default Work Unit\StopFootstep	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1125500713	intro			\Default Work Unit\intro	
+
+State	ID	Name	State Group			Notes
+	196176718	Firstheme	intro			
+	748895195	None	intro			
+	1125500713	intro	intro			
+	1714639257	Fulltheme	intro			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6863960	BRS_Foley_Box_Small_Mvs_Fast_02	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\BRS_Foley_Box_Small_Mvs_Fast_88D2BE74.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pushes\Box\BRS_Foley_Box_Small_Mvs_Fast_02		41162
+	76010078	First theme	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\1st string theme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Firsttheme\1st Theme\First theme		3351340
+	201466350	FootstepsSnow_BW_01	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\FootstepsSnow_BW.8202_12A94657.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\SnowFoot\FootstepsSnow_BW_01		391544
+	224682832	Tones reel_03	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\Tones reel_8026E2F1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music hits\tones\Tones reel_03		826028
+	264922810	Intro strings	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\Intro strings_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\intro\Intro\Intro strings		3351340
+	317056426	BRS_Foley_Box_Small_Mvs_Fast_03	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\BRS_Foley_Box_Small_Mvs_Fast_1761E39F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pushes\Box\BRS_Foley_Box_Small_Mvs_Fast_03		27464
+	318698711	FootstepsSnow_BW_02	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\FootstepsSnow_BW.8202_0ED77B3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\SnowFoot\FootstepsSnow_BW_02		407120
+	477716391	Tones reel_02	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\Tones reel_90448E7D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music hits\tones\Tones reel_02		873680
+	540231131	Tones reel	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\Tones reel_3A869F19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music hits\tones\Tones reel		953096
+	702781199	BRS_Foley_Box_Small_Mvs_Fast	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\BRS_Foley_Box_Small_Mvs_Fast_EC30FC22.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pushes\Box\BRS_Foley_Box_Small_Mvs_Fast		36182
+	790796391	Fulltheme	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\Fulltheme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Fulltheme\full theme\Fulltheme		6702612
+	795610837	FootstepsSnow_BW_03	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\FootstepsSnow_BW.8202_737F3807.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\SnowFoot\FootstepsSnow_BW_03		413788
+	868542613	BRS_Foley_Box_Small_Mvs_Fast_01	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\BRS_Foley_Box_Small_Mvs_Fast_5B6FE06D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pushes\Box\BRS_Foley_Box_Small_Mvs_Fast_01		38672
+	1049669063	Tones reel_01	Y:\Documents\WwiseProjects\Snowkoban\.cache\Android\SFX\Tones reel_4DD714BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music hits\tones\Tones reel_01		897504
+

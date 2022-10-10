@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/Snowkoban/</ProjectRoot>
+		<SourceFilesRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/Snowkoban/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/Snowkoban/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/dillannhoyos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/Snowkoban/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2090274627">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="3632791827">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" DurationType="OneShot" DurationMin="2.104784" DurationMax="2.357997">
+					<IncludedMemoryFiles>
+						<File Id="201466350" Language="SFX">
+							<ShortName>FootstepsSnow_BW.8202.wav</ShortName>
+							<Path>SFX/FootstepsSnow_BW.8202_12A94657.wem</Path>
+						</File>
+						<File Id="318698711" Language="SFX">
+							<ShortName>FootstepsSnow_BW.8202.wav</ShortName>
+							<Path>SFX/FootstepsSnow_BW.8202_0ED77B3C.wem</Path>
+						</File>
+						<File Id="795610837" Language="SFX">
+							<ShortName>FootstepsSnow_BW.8202.wav</ShortName>
+							<Path>SFX/FootstepsSnow_BW.8202_737F3807.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="417627684" Name="PlayMusic" ObjectPath="\Events\Default Work Unit\PlayMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="76010078" Language="SFX">
+							<ShortName>1st string theme.wav</ShortName>
+							<Path>SFX/1st string theme_D79FB2B7.wem</Path>
+						</File>
+						<File Id="264922810" Language="SFX">
+							<ShortName>Intro strings.wav</ShortName>
+							<Path>SFX/Intro strings_D79FB2B7.wem</Path>
+						</File>
+						<File Id="790796391" Language="SFX">
+							<ShortName>Fulltheme.wav</ShortName>
+							<Path>SFX/Fulltheme_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{F7188429-D563-4DF3-B9D1-646384B294E4}">
+							<Media>
+								<File Id="76010078"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0F2808AE-22A0-4294-83BD-68D1BAEABB20}">
+							<Media>
+								<File Id="790796391"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BCDF409A-2F71-4B49-AF68-E54A70EF7611}">
+							<Media>
+								<File Id="264922810"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1952795908" Name="Pushbox" ObjectPath="\Events\Default Work Unit\Pushbox" DurationType="OneShot" DurationMin="0.310655" DurationMax="0.465983">
+					<IncludedMemoryFiles>
+						<File Id="6863960" Language="SFX">
+							<ShortName>BRS_Foley_Box_Small_Mvs_Fast.wav</ShortName>
+							<Path>SFX/BRS_Foley_Box_Small_Mvs_Fast_88D2BE74.wem</Path>
+						</File>
+						<File Id="317056426" Language="SFX">
+							<ShortName>BRS_Foley_Box_Small_Mvs_Fast.wav</ShortName>
+							<Path>SFX/BRS_Foley_Box_Small_Mvs_Fast_1761E39F.wem</Path>
+						</File>
+						<File Id="702781199" Language="SFX">
+							<ShortName>BRS_Foley_Box_Small_Mvs_Fast.wav</ShortName>
+							<Path>SFX/BRS_Foley_Box_Small_Mvs_Fast_EC30FC22.wem</Path>
+						</File>
+						<File Id="868542613" Language="SFX">
+							<ShortName>BRS_Foley_Box_Small_Mvs_Fast.wav</ShortName>
+							<Path>SFX/BRS_Foley_Box_Small_Mvs_Fast_5B6FE06D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="681177339" Name="Setstatefirsttheme" ObjectPath="\Events\Default Work Unit\Setstatefirsttheme" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="196176718" Name="Firstheme" ObjectPath="\States\Default Work Unit\intro\Firstheme"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2428031377" Name="Setstatefuilltheme" ObjectPath="\Events\Default Work Unit\Setstatefuilltheme" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1714639257" Name="Fulltheme" ObjectPath="\States\Default Work Unit\intro\Fulltheme"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1515128208" Name="SetStateIntro" ObjectPath="\Events\Default Work Unit\SetStateIntro" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1125500713" Name="intro" ObjectPath="\States\Default Work Unit\intro\intro"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2596245103" Name="StopFootstep" ObjectPath="\Events\Default Work Unit\StopFootstep" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1940391016" Name="tones" ObjectPath="\Events\Default Work Unit\tones" DurationType="OneShot" DurationMin="4.301887" DurationMax="4.963716">
+					<IncludedMemoryFiles>
+						<File Id="224682832" Language="SFX">
+							<ShortName>Tones reel.wav</ShortName>
+							<Path>SFX/Tones reel_8026E2F1.wem</Path>
+						</File>
+						<File Id="477716391" Language="SFX">
+							<ShortName>Tones reel.wav</ShortName>
+							<Path>SFX/Tones reel_90448E7D.wem</Path>
+						</File>
+						<File Id="540231131" Language="SFX">
+							<ShortName>Tones reel.wav</ShortName>
+							<Path>SFX/Tones reel_3A869F19.wem</Path>
+						</File>
+						<File Id="1049669063" Language="SFX">
+							<ShortName>Tones reel.wav</ShortName>
+							<Path>SFX/Tones reel_4DD714BD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="196176718" Name="Firstheme" ObjectPath="\States\Default Work Unit\intro\Firstheme" GUID="{F7188429-D563-4DF3-B9D1-646384B294E4}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1125500713" Name="intro" ObjectPath="\States\Default Work Unit\intro" GUID="{AF5B82F9-D7C6-42B0-875F-B2F8AA1ED4D8}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\intro\None" GUID="{6106022B-1006-46C3-9A2D-5FBD0A9E9500}"/>
+						<State Id="1125500713" Name="intro" ObjectPath="\States\Default Work Unit\intro\intro" GUID="{BCDF409A-2F71-4B49-AF68-E54A70EF7611}"/>
+						<State Id="196176718" Name="Firstheme" ObjectPath="\States\Default Work Unit\intro\Firstheme" GUID="{F7188429-D563-4DF3-B9D1-646384B294E4}"/>
+						<State Id="1714639257" Name="Fulltheme" ObjectPath="\States\Default Work Unit\intro\Fulltheme" GUID="{0F2808AE-22A0-4294-83BD-68D1BAEABB20}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1714639257" Name="Fulltheme" ObjectPath="\States\Default Work Unit\intro\Fulltheme" GUID="{0F2808AE-22A0-4294-83BD-68D1BAEABB20}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
